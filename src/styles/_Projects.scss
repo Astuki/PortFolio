@@ -11,7 +11,7 @@
 }
 .on-top{
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 4vh;
     transform: rotate(180deg);
     z-index: 99999;

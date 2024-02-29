@@ -5,7 +5,7 @@ import placeholder from '../../assets/Img.jpg'
 
 export default function SplineImg() {
   return (
-    <div>
+    <>
       <div className='wrapper'>
         <img 
           className="wrapper_img" 
@@ -13,6 +13,6 @@ export default function SplineImg() {
           alt="Placeholder"
         />
       </div>
-    </div>
+    </>
   );
 }

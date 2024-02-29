@@ -13,6 +13,10 @@
   transition: transform 0.1s ease-out;
 }
 
+.custom-cursor.over-image {
+  mix-blend-mode: normal;
+}
+
 .light-effect {
   position: absolute;
   width: 75px;

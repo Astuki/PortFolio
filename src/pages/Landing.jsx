@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 import CustomCursor from "../components/CustomCursor/CustomCursor";
 import Rod from "../components/Rod/Rod";
-import SplineImg from "../components/SplineImg/SplineImg";
+import HomepageImg from "../components/HomepageImg/HomepageImg";
 import Stars from "../components/Stars/Stars";
 import TextStyled from "../components/TextStyled/TextStyled";
 import PageChange from "../components/PageChange/PageChange";
@@ -29,7 +29,7 @@ export default function Landing() {
       <CustomCursor />
       <Stars />
       <main className="flexbox" style={{ height: `${screenHeight}px`}}>
-        <SplineImg />
+        <HomepageImg />
         <Rod />
         <TextStyled />
         <Moon />

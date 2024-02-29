@@ -14,7 +14,7 @@ export default function PageChange() {
       const line = document.createElement("div");
       line.className = "line";
       line.style.left = `${(i / numLines) * 100}%`; 
-      line.style.animationDelay = `${i * 0.2}s`; 
+      line.style.animationDelay = `${i * 0.15}s`; 
       linesEffect.appendChild(line);
     }
   }, []);

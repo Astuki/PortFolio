@@ -17,8 +17,8 @@ export default function Moon() {
     };
   }, []);
 
-  if (screenHeight < 860) {
-    return null; // Do not render the Moon component if the screen height is less than 860px
+  if (screenHeight < 765) {
+    return null; // Do not render the Moon component if the screen height is less than 760px
   }
 
   let orbitSize = "13vh";

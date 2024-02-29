@@ -25,10 +25,6 @@
             padding-top: 15px;
         }
     }
-    
-    .SkillContainer:hover{
-        animation: rotateAnimation 0.8s forwards;
-    }
 }
 .Skills{
     font-weight: 600;
@@ -47,18 +43,11 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 5px solid rgba(55, 55, 55, 0.2);
+  border-bottom: 6px solid rgba(71, 71, 71, 0.6);
+  border-right: 6px solid rgba(71, 71, 71, 0.6);
   transform: skew(300deg);
 }
 
-@keyframes rotateAnimation {
-    0% {
-      transform: rotateY(0deg);
-    }
-    100% {
-      transform: rotateY(360deg);
-    }
-  }
 
 @media screen and (max-width:350px) { 
 	.SkillImg{
