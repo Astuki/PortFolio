@@ -12,7 +12,7 @@ export default function Stars() {
 
   useEffect(() => {
     const generateStars = () => {
-      const screenWidth = window.innerWidth + 100;
+      const screenWidth = window.innerWidth;
       const lineHeight = window.innerHeight;
       const numberOfLines = Math.floor(window.innerHeight / lineHeight);
       const maxStars = Math.floor((screenWidth / lineHeight) * 200 * numberOfLines);
@@ -88,6 +88,3 @@ export default function Stars() {
     </div>
   );
 }
-
-/* Possibility of upgrade, make a min and max numbers of shooting stars and adding a minimum number of lines between each "shooting stars" and see if colors better or not
-See if able to make it so stars can have various size ( has been deleted see if able to make it again ) */

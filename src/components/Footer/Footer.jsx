@@ -23,9 +23,9 @@ export default function Footer() {
           <p className="footer-text">Mon Github</p>
         </div>
       </div>
-
+      <p className="copyright">Copyright <span className="copyright_icon">©</span> 2024.</p>
       <div className="flag second">
-      <div className="flag__canvas">
+        <div className="flag__canvas">
           <a
             href="https://www.linkedin.com/in/wilsfried-di-majo-45577327a/"
             target="_blank"

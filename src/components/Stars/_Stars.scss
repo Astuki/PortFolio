@@ -2,9 +2,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; /* Adjusted to 97.5% of the viewport width */
   height: 100%;
   pointer-events: none;
+  margin: auto;
 }
 
 .star {
@@ -67,13 +68,13 @@
     transform: translateY(0) translateX(0);
   }
   25% {
-    transform: translateY(3.5vh) translateX(3.5vh);
+    transform: translateY(3vh) translateX(3vh);
   }
   50% {
-    transform: translateY(0) translateX(5.5vh);
+    transform: translateY(0) translateX(4vh);
   }
   75% {
-    transform: translateY(-3.5vh) translateX(3.5vh);
+    transform: translateY(-3vh) translateX(3vh);
   }
 }
 
