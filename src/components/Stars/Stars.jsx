@@ -15,7 +15,7 @@ export default function Stars() {
       const screenWidth = window.innerWidth;
       const lineHeight = window.innerHeight;
       const numberOfLines = Math.floor(window.innerHeight / lineHeight);
-      const maxStars = Math.floor((screenWidth / lineHeight) * 200 * numberOfLines);
+      const maxStars = Math.floor((screenWidth / lineHeight) * 250 * numberOfLines);
       const generatedStars = [];
       const generatedShootingStars = [];
 

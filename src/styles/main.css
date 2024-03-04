@@ -211,13 +211,13 @@ body {
     transform: translateY(0) translateX(0);
   }
   25% {
-    transform: translateY(3vh) translateX(3vh);
+    transform: translateY(4vh) translateX(4vh);
   }
   50% {
-    transform: translateY(0) translateX(4vh);
+    transform: translateY(0) translateX(5vh);
   }
   75% {
-    transform: translateY(-3vh) translateX(3vh);
+    transform: translateY(-4vh) translateX(4vh);
   }
 }
 @keyframes shootingStarsAnimation {
