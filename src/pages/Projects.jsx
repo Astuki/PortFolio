@@ -10,7 +10,7 @@ import PageChange from "../components/PageChange/PageChange";
 /* Components imported */
 
 /* JSON Data */
-import jsonData from "../components/JsonData/Project.json";
+import {project} from "../components/Data/index";
 /* JSON DATA */
 
 /* Utilities */
@@ -28,9 +28,9 @@ export default function Projects() {
         <PageChange />
       </nav>
       <main className="flexboxProjects">
-        <Project projectData={{ ...jsonData[0], pictures: [Projet8] }} />
-        <Project projectData={{ ...jsonData[1], pictures: [Projet11] }} />
-        {/* Modifier façon import ne pas à avoir à écrire, map sur les data directement  */}
+        {project.map((item, index) => (
+          <Project key={index} projectData={item} />
+          ))}
         <Skills />
       </main>
       <footer className="contact-footer">
