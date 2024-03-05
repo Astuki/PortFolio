@@ -12,8 +12,9 @@ export default function Stars() {
 
   useEffect(() => {
     const generateStars = () => {
-      const screenWidth = window.innerWidth;
-      const lineHeight = window.innerHeight;
+      let screenWidth = window.innerWidth;
+      console.log(screenWidth);
+      let lineHeight = window.innerHeight;
       const numberOfLines = Math.floor(window.innerHeight / lineHeight);
       const maxStars = Math.floor((screenWidth / lineHeight) * 250 * numberOfLines);
       const generatedStars = [];

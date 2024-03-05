@@ -3,14 +3,14 @@ import placeholder from '../../assets/Img.jpg'
 
 
 
-export default function SplineImg() {
+export default function HomepageImg() {
   return (
     <>
       <div className='wrapper'>
         <img 
           className="wrapper_img" 
           src={placeholder} 
-          alt="Placeholder"
+          alt="Photo prise de face"
         />
       </div>
     </>
