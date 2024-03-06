@@ -281,7 +281,7 @@ p, h1, h2, h3 {
 }
 
 .TitleProject {
-  margin: 0 0 1vw 0;
+  margin: 1vw 0 2vw 0;
   color: white;
   line-height: 36px;
   text-align: center;
@@ -379,7 +379,7 @@ p, h1, h2, h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 5vh;
+  top: 5.25vh;
 }
 .container .moon {
   display: flex;

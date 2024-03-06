@@ -18,20 +18,20 @@ export default function Moon() {
   }, []);
 
   if (screenHeight < 765) {
-    return null; // Do not render the Moon component if the screen height is less than 760px
+    return null; // Do not render the Moon component if the screen height is less than 765px
   }
 
   let orbitSize = "13vh";
 
   if (screenHeight > 950) {
-    orbitSize = "25vh";
+    orbitSize = "22vh";
   }
 
-  let secondOrbitSize = "16vh";
+  let secondOrbitSize = "15vh";
   let secondAnimationDuration = "6s"
 
   if (screenHeight > 1050) {
-    secondOrbitSize = "16vh";
+    secondOrbitSize = "15vh";
   }
 
   return (

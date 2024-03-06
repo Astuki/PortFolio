@@ -13,11 +13,6 @@ import PageChange from "../components/PageChange/PageChange";
 import {project} from "../components/Data/index";
 /* JSON DATA */
 
-/* Utilities */
-import Projet8 from "../assets/Appartement8.webp";
-import Projet11 from "../assets/Bank11.webp";
-/* Utilities */
-
 export default function Projects() {
 
   return (
